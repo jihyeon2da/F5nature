@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* before과 after은 전체로 잡은 box-sizing 값이 적용안되므로 따로 적용 */
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6  {
+    font-size: inherit;
+    font-weight: normal;
+}
+button {
+    border: 0;
+    background-color: transparent;
+}
